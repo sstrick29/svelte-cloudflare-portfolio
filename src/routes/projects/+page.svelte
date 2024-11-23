@@ -2,19 +2,34 @@
 	
     const projects = [
 	{
-		title: 'GDLauncher',
-		technologies: ['Node', 'React', 'Redux', 'Electron'],
+		title: '32 bit CPU ',
+		technologies: ['Verilog/SVerilog', 'Python', 'cocotb', 'Electron'],
 		description:
-			'GDLauncher is a simple, yet powerful Minecraft custom launcher with a strong focus on the user experience',
-		url: 'https://github.com/gorilla-devs/GDLauncher'
+			'A simple yet powerful 32 bit cpu written in Verilog/System Verilog. Tested using cocotb in Python.',
+		url: 'https://github.com/sstrick29/ale81-32bit-cpu.git'
 	},
 	{
-		title: 'WiseMan Discord Bot',
-		technologies: ['NodeJs', 'FireBase', 'MongoDb', 'golang'],
+		title: 'Digital Geiger-Muller Counter',
+		technologies: ['C', 'C++', 'Altium', 'PSpice'],
 		description:
-			'The wiseMan bot allows you to level up based on the time you spend in a vocal channel',
-		url: 'https://github.com/Ladvace/WiseMan-DiscordBot'
+			'This project compines microcontroller programming with circuit design.',
+		url: 'https://github.com/sstrick29/GMcounter-pico-digital.git'
 	},
+    {
+		title: 'Handwritten Digits Image Recognition',
+		technologies: ['Python', 'Linux', 'OpenGL', 'Machine Learning'],
+		description:
+			'This project integrates computer vision with machine learning to read and predict handwritten digits.',
+		url: 'https://github.com/sstrick29/mnist-TF-computervision-Rpi4.git'
+	},
+    {
+		title: 'Portfolio Website',
+		technologies: ['Node.js', 'Svelte.js', 'Cloudflare Infrastructure', ''],
+		description:
+			'This projects represents what I know about building web-based applications and deploying to live web services. You can find it deployed here.',
+		url: 'https://github.com/sstrick29/svelte-cloudflare-portfolio.git'
+	},
+    
 
 ];
 
@@ -28,8 +43,7 @@
 	<div class="projects">
 		<h1>Projects</h1>
 		<p class="note">
-			Note: most of my projects are under NDA so I am unable to share those projects. If there is
-			anything you would like to see further, please feel free to contact me.
+			These are a collection of projects I'd like to showcase.
 		</p>
 		{#each projects as project}
 			<div class="project">
@@ -50,7 +64,7 @@
 					{project.description}
 				</p>
 				<a href={project.url} target="_blank" rel="noreferrer">
-					<div class="button">Project url =></div>
+					<div class="button">Project code</div>
 				</a>
 			</div>
 		{/each}
