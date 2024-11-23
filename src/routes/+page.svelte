@@ -11,7 +11,9 @@
 </p>
 
 
-
+<svelte:head>
+	<title>Samuel Strickland — Home</title>
+</svelte:head>
 
 
 <style>

@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-	<title>Gianmarco Cavallo — Projects</title>
+	<title>Samuel Strickland — Projects</title>
 </svelte:head>
 
 <div class="projectContainer">
