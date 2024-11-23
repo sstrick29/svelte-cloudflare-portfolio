@@ -20,7 +20,10 @@
 <nav>
 	<a href="/">home</a>
 	<a href="/about">about</a>
-	<a href="/how">how</a>
+	<a href="/projects">projects</a>
+	
+	
+
 
 	{#if $page.data.component}
 		{@const Component = $page.data.component}
