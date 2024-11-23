@@ -1,4 +1,5 @@
 <script>
+	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 
 	let { children } = $props();
@@ -16,11 +17,18 @@
 	});
 </script>
 
-<nav data-sveltekit-reload>
+<nav>
 	<a href="/">home</a>
 	<a href="/about">about</a>
+	<a href="/how">how</a>
+
+	{#if $page.data.component}
+		{@const Component = $page.data.component}
+		<Component />
+	{/if}
+	
 </nav>
 
 {@render children()}
 
-<p>the page has been open for {seconds} seconds</p>
+<p>You've been here for {seconds} seconds</p>

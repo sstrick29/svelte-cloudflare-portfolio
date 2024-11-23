@@ -6,10 +6,10 @@
 
 
 <h1>Welcome to my portfolio website</h1>
-    <p> <a href="https://www.linkedin.com/in/samstrickland29/">Add me on LinkedIn</a>
-        
-    </p>
-<h2>{name} is really cool </h2>
+<p> {name} is really cool. <a href="https://www.linkedin.com/in/samstrickland29/">Add him on LinkedIn.</a>
+    
+</p>
+
 
 
 
