@@ -3,9 +3,14 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="color-scheme" content="dark light" />
-		<title>Samuel Strickland - Portfolio</title>
+
+		<title>Samuel Strickland - Electrical Engineer</title>
+		<meta name="title" content="Samuel Strickland — Electrical Engineer" />
+		<meta name="description" content="Electrical Engineer, based in Atlanta" />
+
 		%sveltekit.head%
 
 		<link rel="stylesheet" href="/shared.css" />
@@ -17,8 +22,8 @@
 		<script>
 			const theme = new URL(window.location).searchParams.get('theme');
 
-			document.documentElement.classList.remove('light', 'dark');
-			document.documentElement.classList.add(theme || 'light');
+			//document.documentElement.classList.remove('light', 'dark');
+			//document.documentElement.classList.add(theme || 'light');
 		</script>
 
 
