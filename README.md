@@ -3,7 +3,7 @@
 ## A portfolio website made using `@sveltejs/kit` to show off my personal projects.
 
 <p align="left">
-    <img width="500" height="auto" src="https://i.imgur.com/IafmSKu.png" alt="homepagescreenshot" />
+    <img width="500" height="auto" src="/src/static/favicon.png" alt="homepagescreenshot" />
 </p>
 
 Here is the live website, **[click here](https://samuelstrickland.xyz)**
