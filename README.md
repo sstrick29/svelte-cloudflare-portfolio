@@ -1,38 +1,54 @@
-# sv
+# Svelte-Cloudflare-Portfolio
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## A portfolio website made using `@sveltejs/kit` to show off my personal projects.
 
-## Creating a project
+<p align="left">
+    <img width="500" height="auto" src="https://i.imgur.com/IafmSKu.png" alt="homepagescreenshot" />
+</p>
 
-If you're seeing this, you've probably already done this step. Congrats!
+Here is the live website, **[click here](https://samuelstrickland.xyz)**
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Description
 
-# create a new project in my-app
-npx sv create my-app
+- Single-page web app
+- Home page, About me, and Projects sections
+- Responsive and lightweight
+- Custom domain
+- Ready to be deployed on [Cloudflare Pages](https://pages.cloudflare.com/)
+
+# Clone this Project
+
+```
+# Clone this repository
+$ git clone https://github.com/sstrick29/svelte-cloudflare-portfolio
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```
+# Go into the repository
+$ cd SvelteKit-Portfolio
 ```
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
+```
+# Install dependencies
+$ npm install
 ```
 
-You can preview the production build with `npm run preview`.
+```
+# Start the project in development
+$ npm run dev
+```
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+# Deployed on Cloudflare Pages
+
+This website is deployed to Cloudflare Pages using their free plan.
+
+```
+# Start the project in development
+$ npm run deploy
+```
+
+https://samuelstrickland.xyz
+
+## Author:
+
+- Samuel Strickland - https://github.com/sstrick29
